@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Disable Viewport Zooming -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximun-scale=1.0"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="section menu"></div>
+      <div class="photo">
+        <!-- Here, we're saying that when the screen is at least 960px wide, the image
+        will also be 960px wide. Otherwise, the 100vw default value tells the 
+      browser that the images's width will be 100% of the "viewport width" -->
+
+        <img
+          src="images/photo-small.jpg"
+          srcset="images/photo-big.jpg 2000w, images/photo-small.jpg 1000w"
+          sizes="(min-width: 960px) 960px, 100vw"
+        />
+      </div>
+      <!-- <div class="section content">
+        <img src="images/content.svg" alt="" />
+      </div> -->
+      <div class="section content">
+        <div class="illustration">
+          <!-- The srcset atrribute points to a list of alternative images files, along with
+          properties defining when the browser should use each of them. The 1x tells
+        the broser to display illustration-samll.png on standard-resolution
+      screens. The 2x means that illustration-big.png is for retina screeens.
+  Older browsers that don't understand srcset fall back to the src atrribute. -->
+          <img
+            src="images/illustration-small.png"
+            srcset="
+              images/illustration-small.png 1x,
+              images/illustration-big.png   2x
+            "
+            style="max-width: 500px"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="section sign-up">
+        <img src="images/sign-up.svg" alt="" />
+      </div>
+      <div class="section feature-1">
+        <img src="images/feature.svg" alt="" />
+      </div>
+      <div class="section feature-2">
+        <img src="images/feature.svg" alt="" />
+      </div>
+      <div class="section feature-3">
+        <img src="images/feature.svg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>

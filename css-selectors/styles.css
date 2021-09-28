@@ -1,0 +1,104 @@
+p:first-of-type em {
+  font-style: normal;
+}
+
+.button:link,
+.button:visited {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #5995da;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5d6063;
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+}
+
+.button:hover,
+.button:visited:hover {
+  color: #fff;
+  background-color: #76aeed;
+}
+
+.button:active,
+.button:visited:active {
+  color: #fff;
+  background-color: #5995da;
+}
+
+.page {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.call-to-action {
+  font-style: italic;
+  background-color: #eeb75a;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: aqua;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited:hover {
+  color: orange;
+}
+
+.call-to-action:link,
+.call-to-action:visited {
+  font-style: italic;
+  background-color: yellow;
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: lightyellow;
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: yellow;
+}
+
+p:last-of-type {
+  margin-top: 100px;
+}
+
+/* Select only childs that under 1 level */
+.page > p:first-of-type {
+  color: #7e8184;
+  font-style: italic;
+}
+
+/* ID selecdtor */
+#button-3 {
+  color: #5d6063;
+}
+
+#button-2 {
+  color: red;
+}
+
+/* This is painful to maintain
+#button-2,
+#button3,
+#checkout-button,
+#menu-bar-call-to-action {
+  color: #5d6063;
+} */

@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  height: 100px;
+  background-color: mediumblue;
+}
+
+.sidebar {
+  float: left;
+  width: 200px;
+  height: 300px;
+  /* margin: 0 auto; */
+  background-color: red;
+}
+
+.content {
+  float: left;
+  width: 650px;
+  height: 500px;
+  padding: 20px;
+  background-color: yellow;
+}
+
+.footer {
+  overflow: hidden;
+  clear: both;
+  /* height: 200px; */
+  background-color: lightblue;
+}
+
+.page {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.page-container {
+  background-color: #eaedf0;
+  overflow: hidden;
+  border: 2px solid red;
+}
+
+.collumn {
+  float: left;
+  width: 31%;
+  margin: 20px 1.15%;
+  height: 160px;
+  background-color: #b2d6ff;
+}
+
+.article-image {
+  float: left;
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid red;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.avatar {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin: 25px;
+  border-radius: 40px;
+  background-color: #d6e9fe;
+}
+
+.username {
+  margin-top: 30px;
+}
+
+.comment {
+  margin: 10px;
+  overflow: hidden;
+}

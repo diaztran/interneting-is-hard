@@ -1,0 +1,47 @@
+body {
+  color: rgb(38, 179, 213);
+  background-color: rgb(23, 60, 19);
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: lighter;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+a {
+  /* Remember that meaning should always be conveyed through HTML-not CSS. It's better to use the <ins> and <del>
+  elements instead of adding a line-through style to, say, an ordinary <p> element. */
+  text-decoration: line-through;
+}
+
+p {
+  text-align: justify;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+strong {
+  font-weight: normal;
+  font-style: italic;
+}

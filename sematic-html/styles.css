@@ -1,0 +1,9 @@
+/* For legacy browsers */
+section,
+article,
+aside,
+footer,
+header,
+nav {
+  display: block;
+}
